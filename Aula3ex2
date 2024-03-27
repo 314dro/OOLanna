@@ -1,0 +1,20 @@
+package Aula2;
+import java.util.*;
+import java.util.Scanner;
+
+public class Aula3 {
+
+    public static void main(String[] args) {
+            System.out.println("escolha a quantidade de posições no vetor");
+            Scanner sc = new Scanner(System.in);
+            int x = sc.nextInt();
+            int vetor[] = new int[x];
+            for (int i = 0; i < x; i++){
+                System.out.println("insira um numero");
+                int y = sc.nextInt();
+                vetor[i] = y;
+            }
+            System.out.println(vetor[0]);
+        }
+
+    }
